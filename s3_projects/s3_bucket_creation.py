@@ -1,7 +1,8 @@
-import boto3
 import os
+
+import boto3
+from botocore.exceptions import ClientError, NoCredentialsError
 from dotenv import load_dotenv
-from botocore.exceptions import NoCredentialsError, ClientError
 
 # Load environment variables from .env file
 load_dotenv()
