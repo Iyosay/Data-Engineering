@@ -1,9 +1,10 @@
-import awswrangler as wr
-import pandas as pd
-from dotenv import load_dotenv
-import boto3
 import os
+
+import awswrangler as wr
+import boto3
+import pandas as pd
 import requests
+from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
